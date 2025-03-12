@@ -14,21 +14,41 @@
         <div class="row test1">
             <div class="col-md-4 position-relative">
                 <img src="./img/rock2.png" alt="" class="w-75"> <br>
-                <button class=" rock btn py-2 px-4 text-bg-secondary border border-secondary rounded-pill" onclick="button1()">Rock</button>
+                <button class=" rock btn py-2 px-4 text-bg-secondary border border-secondary rounded-pill" onclick="button1(), score()">Rock</button>
             </div>
             <div class="col-md-4 position-relative">
                 <img src="./img/paper.png" alt="" class="w-75"> <br>
-                <button class="rock btn py-2 px-4 text-bg-secondary border border-secondary rounded-pill" onclick="button2()">Paper</button>
+                <button class="rock btn py-2 px-4 text-bg-secondary border border-secondary rounded-pill" onclick="button2(),score()">Paper</button>
             </div>
 
             <div class="col-md-4 position-relative">
                 <img src="./img/67ebfd32e898b4ec3ae4e59ae33832c8.jpg" alt="" class="w-75"> <br>
-                <button class="rock btn py-2 px-4 text-bg-secondary border border-secondary rounded-pill" onclick="button3()">Scissors </button>
+                <button class="rock btn py-2 px-4 text-bg-secondary border border-secondary rounded-pill" onclick="button3(),score()">Scissors </button>
             </div>
 
 
         </div>
 
+        <div class="t-table mt-5">
+            <table class="table">
+                <th>
+                    Wins
+                </th>
+                <th>
+                    Loses
+                </th>
+                <th>
+                    Ties
+                </th>
+                <tbody class="tbody" id="tbody">
+
+
+                         
+                </tbody>
+            </table>
+
+
+        </div>
 
 
     </div>
