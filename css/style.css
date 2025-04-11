@@ -1,6 +1,72 @@
-.rock{
 
-    position: absolute;
-    left: 100px;
+:root{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
 
+
+
+.test-pics{
+    padding-left: 30px;
+    padding-top: 30px;
+    
+}
+.Scissorspic{
+    height: 150px;
+}
+
+.bottons{
+    margin-top: 30px;
+}
+
+.s-reset{
+    justify-self: center;
+    margin-top: 50px;
+    margin-left: 20px;
+} 
+
+.js-score{
+    font-size: 30px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.js-note, .js-result{
+    font-size: 30px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.fa-solid{
+    font-size: 30px;
+    color: rgba(242, 192, 27, 0.861);
+}
+
+.rps{
+height: 150px;
+width: 150px;
+display: flex;
+justify-content: center;
+}
+
+.rock img{
+    height: 100px;
+    width: 150px;
+    align-self: center;
+}
+
+.pap img{
+    height: 90px;
+    width: 150px;
+    align-self: center;
+}
+
+.sis img{
+    height: 90px;
+    width: 80px;
+    align-self: center;
 }
