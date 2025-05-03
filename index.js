@@ -50,6 +50,7 @@ function button1(){
              result='You Loooose';
          }        
         document.querySelector('.js-note').innerHTML=`You  <i class="fa-solid fa-hand"></i>. The computer  ${computerMove}`;
+        document.querySelector('.js-result').innerHTML=`${result}`;
 
         }
 
@@ -63,6 +64,7 @@ function button1(){
              result='It is a tie';
          }     
          document.querySelector('.js-note').innerHTML=`You  <i class="fa-solid fa-hand-peace"></i>. The computer  ${computerMove}`;
+         document.querySelector('.js-result').innerHTML=`${result}`;
 
         }
 
@@ -81,7 +83,7 @@ function button1(){
             scores.wins+=1;
         } else if (result === 'You Loooose'){
             scores.loses+=1;
-        }else if(result=='It is a tie'){
+        }else if(result==='It is a tie'){
             scores.ties+=1;
 
         }
